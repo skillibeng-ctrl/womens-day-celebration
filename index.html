@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy International Women's Day 2026 💐</title>
+<style>
+  /* ---- Global with animated gradient background ---- */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  /* ---- Card with glass morphism effect ---- */
+  .card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 550px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  /* ---- Decorative elements ---- */
+  .card::before {
+    content: '🌸';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    font-size: 120px;
+    opacity: 0.1;
+    transform: rotate(-15deg);
+  }
+
+  .card::after {
+    content: '💐';
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    font-size: 140px;
+    opacity: 0.1;
+    transform: rotate(15deg);
+  }
+
+  /* ---- Typography with gradient text ---- */
+  .card h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    background: linear-gradient(45deg, #FF1493, #FF69B4, #FF4081);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 2px 2px 10px rgba(255, 64, 129, 0.3);
+  }
+
+  .card h2 {
+    font-size: 1.8rem;
+    color: #8A2BE2;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .card p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+
+  /* ---- Flower decoration ---- */
+  .flower-decoration {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+
+  .flower {
+    font-size: 2rem;
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .flower:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  .flower:nth-child(3) {
+    animation-delay: 1s;
+  }
+  .flower:nth-child(4) {
+    animation-delay: 1.5s;
+  }
+  .flower:nth-child(5) {
+    animation-delay: 2s;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  /* ---- Button with enhanced styling ---- */
+  .button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0 20px;
+  }
+
+  .card button {
+    background: linear-gradient(45deg, #FF4081, #FF1493);
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 64, 129, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    letter-spacing: 1px;
+  }
+
+  .card button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(255, 64, 129, 0.6);
+    background: linear-gradient(45deg, #FF1493, #FF4081);
+  }
+
+  .card button:active {
+    transform: scale(0.95);
+  }
+
+  #clearBtn {
+    background: linear-gradient(45deg, #808080, #A9A9A9);
+    box-shadow: 0 5px 15px rgba(128, 128, 128, 0.4);
+  }
+
+  #clearBtn:hover {
+    background: linear-gradient(45deg, #A9A9A9, #808080);
+    box-shadow: 0 10px 25px rgba(128, 128, 128, 0.6);
+  }
+
+  /* ---- Quote container with animation ---- */
+  .quote-container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 25px;
+    border-left: 5px solid #FF4081;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #quote {
+    font-size: 1.2rem;
+    color: #333;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.6;
+    transition: all 0.5s ease;
+    animation: fadeIn 0.5s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ---- Confetti with improved styling ---- */
+  .confetti {
+    position: absolute;
+    pointer-events: none;
+    animation: fall linear forwards;
+    z-index: 1000;
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(-10vh) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) rotate(720deg);
+      opacity: 0;
+    }
+  }
+
+  /* ---- Year display ---- */
+  .year {
+    font-size: 1rem;
+    color: #888;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  }
+
+  /* ---- Responsive design ---- */
+  @media (max-width: 600px) {
+    .card {
+      padding: 30px 20px;
+    }
+    
+    .card h1 {
+      font-size: 2rem;
+    }
+    
+    .card h2 {
+      font-size: 1.4rem;
+    }
+    
+    .flower-decoration {
+      gap: 8px;
+    }
+    
+    .flower {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <!-- Animated flowers -->
+  <div class="flower-decoration">
+    <span class="flower">🌷</span>
+    <span class="flower">🌹</span>
+    <span class="flower">🌸</span>
+    <span class="flower">🌺</span>
+    <span class="flower">🌼</span>
+  </div>
+  
+  <h1>Happy International Women's Day!</h1>
+  <h2>2026</h2>
+  <p>Celebrating the strength, grace, and brilliance of women everywhere ✨</p>
+  
+  <!-- Button group -->
+  <div class="button-group">
+    <button id="inspireBtn">💫 Inspire Me</button>
+    <button id="clearBtn">✨ Clear Quote</button>
+  </div>
+  
+  <!-- Quote container -->
+  <div class="quote-container">
+    <p id="quote"></p>
+  </div>
+  
+  <div class="year">#EachForEqual • #IWD2026</div>
+</div>
+
+<script>
+  const quotes = [
+    "✨ Here's to strong women: may we know them, may we be them, may we raise them.",
+    "🌹 A woman is the full circle. Within her is the power to create, nurture, and transform.",
+    "💫 The future is female, and it's brighter than ever.",
+    "⭐ Empowered women empower the world, one step at a time.",
+    "🌸 She believed she could, so she did. And she will continue to inspire.",
+    "💖 There is no limit to what we, as women, can accomplish.",
+    "🌺 A strong woman stands up for herself. A stronger woman stands up for others.",
+    "🌟 Well-behaved women rarely make history - make yours unforgettable.",
+    "💐 Here's to the women who came before us, and the girls who will come after.",
+    "✨ She wasn't looking for a knight. She was looking for a sword."
+  ];
+
+  const button = document.getElementById('inspireBtn');
+  const clearBtn = document.getElementById('clearBtn');
+  const quoteEl = document.getElementById('quote');
+
+  // Function to create confetti with enhanced colors
+  function createConfetti() {
+    const colors = ['#FF4081', '#FF1493', '#FF69B4', '#FFB6C1', '#FFC0CB', '#FFA07A', '#FFD700', '#FF4500', '#9370DB', '#00CED1'];
+    
+    for (let i = 0; i < 100; i++) {
+      const confetti = document.createElement('div');
+      confetti.classList.add('confetti');
+      
+      // Random properties
+      const left = Math.random() * window.innerWidth;
+      const size = Math.random() * 12 + 5;
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      const duration = Math.random() * 3 + 2;
+      const delay = Math.random() * 2;
+      
+      // Random shapes (circles, squares, hearts)
+      const shapes = ['circle', 'square', 'triangle'];
+      const shape = shapes[Math.floor(Math.random() * shapes.length)];
+      
+      confetti.style.left = left + 'px';
+      confetti.style.width = size + 'px';
+      confetti.style.height = size + 'px';
+      confetti.style.background = color;
+      confetti.style.animationDuration = duration + 's';
+      confetti.style.animationDelay = delay + 's';
+      
+      // Different shapes
+      if (shape === 'circle') {
+        confetti.style.borderRadius = '50%';
+      } else if (shape === 'triangle') {
+        confetti.style.background = 'transparent';
+        confetti.style.width = '0';
+        confetti.style.height = '0';
+        confetti.style.borderLeft = size/2 + 'px solid transparent';
+        confetti.style.borderRight = size/2 + 'px solid transparent';
+        confetti.style.borderBottom = size + 'px solid ' + color;
+        confetti.style.background = 'transparent';
+      } else {
+        confetti.style.borderRadius = '0';
+      }
+      
+      document.body.appendChild(confetti);
+      
+      // Remove confetti after animation
+      setTimeout(() => {
+        confetti.remove();
+      }, duration * 1000 + 500);
+    }
+  }
+
+  button.addEventListener('click', () => {
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    quoteEl.textContent = randomQuote;
+    quoteEl.style.animation = 'none';
+    quoteEl.offsetHeight; // Trigger reflow
+    quoteEl.style.animation = 'fadeIn 0.5s ease';
+    
+    createConfetti();
+  });
+
+  clearBtn.addEventListener('click', () => {
+    quoteEl.textContent = '';
+    // Gentle clear animation
+    quoteEl.style.animation = 'none';
+    quoteEl.offsetHeight;
+    quoteEl.style.animation = 'fadeIn 0.3s ease';
+  });
+
+  // Show a random quote when page loads
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+      quoteEl.textContent = randomQuote;
+    }, 500);
+  });
+
+</script>
+
+</body>
+</html>
